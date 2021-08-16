@@ -1,1 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#body button:nth-child(1){
+    color: violet;
+}
+
+#body button:nth-child(2){
+    color: indigo;
+}
+
+#body button:nth-child(3){
+    color: blue;
+}
+
+#body button:nth-child(4){
+    color: green;
+}
+
+#body button:nth-child(5){
+    color: yellow;
+}
+
+#body button:nth-child(6){
+    color: orange;
+}
+
+#body button:nth-child(7){
+    color: red;
+}
+
+button{
+    margin: 0 10px;
+    height: 60px;
+    width: 150px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: linear-gradient(45deg ,violet, indigo, blue, green, yellow, orange, red);
+    color: white;
+}
